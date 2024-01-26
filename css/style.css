@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+  background-image: url("https://i.redd.it/t586s9ddw0vb1.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 250px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: relative;
+  -webkit-box-shadow: 0px 10px 10px -3px rgba(54,21,0,0.6);
+  -moz-box-shadow: 0px 10px 10px -3px rgba(54,21,0,0.6);
+  box-shadow: 0px 10px 10px -3px rgba(54,21,0,0.6);
+}
+
+.container-background {
+  height: 250px;
+  background-color: #361500;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+  -moz-box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+  box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+}
+
+#loading {
+    display: none;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 20em;
+}
+
+.hidden {
+    display: none;
+}
+
+.flight-container {
+  margin-top: 200px;
+}
+
+.flights {
+  padding: 30px;
+  border: 1px solid #361500;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+  -moz-box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+  box-shadow: 0px 5px 10px -3px rgba(54,21,0,0.6);
+}
